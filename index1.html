@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="proyecto.js"></script>
+    <title>My webside</title>
+    </head>
+    <body>   
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-md-top">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="./nav/Logo2.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">Moda</a>
+              <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-none d-lg-flex d-flex justify-content-end"
+              id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                  <li><a class="nav-link active" aria-current="page" href="#inicio">Inicio</a></li>
+                  <li><a class="nav-link" href="#categorias">Categorias</a></li>
+                  <li><a class="nav-link" id="noticias1" href="#noticias" tabindex="-1" aria-disabled="true">Noticias</a></li>
+                  <li><a class="nav-link" href="#mas">Más</a></li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+      </header>
+        <section>
+          <div id="carousel1" class="carousel slide border-4" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                </button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2">
+                </button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3">
+                </button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4">
+                </button>
+            </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./carrusel/1.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./carrusel/2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./carrusel/3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./carrusel/4.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-md-block">
+                      <h5>Fourth slide label</h5>
+                      <p>Some representative placeholder content for the fourth slide.</p>
+                  </div>
+                </div>
+              </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+          </div>
+        </section>
+        <section class="m-3">
+          <h1 class="fw-bold text-center" id="inicio" class="">Inicio</h1>
+          <p>Bienvenido</p>
+          <h1 class="fw-bold text-center" id="categorias">Categorias</h1>
+          <p>Hoy en día, existen diferentes tipos de moda que permiten a cada individuo expresar su personalidad y sentirse a gusto consigo mismo al estar usando una prenda que represente su esencia al 100%.</p>
+          <div class="row m-2 p-2">
+            <div class="col-12 col-lg-4">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda hipster</li>
+              <div id="hipster" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/hipster/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/hipster/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/hipster/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/hipster/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/hipster/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#hipster" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#hipster" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+            </div>
+            <div class="col-6 col-lg-4">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda casual</li>
+              <div id="casual" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/casual/1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/casual/2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/casual/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/casual/4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/casual/5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#casual" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#casual" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6 col-lg-4">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda clásica</li>
+              <div id="clasica" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/clasica/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/clasica/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/clasica/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/clasica/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/clasica/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#clasica" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#clasica" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda romántica</li>
+              <div id="romantica" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/romantica/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/romantica/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/romantica/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/romantica/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/romantica/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#romantica" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#romantica" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6 col-lg-6">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda deportiva</li>
+              <div id="deportiva" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/deportiva/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/deportiva/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/deportiva/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/deportiva/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/deportiva/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#deportiva" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#deportiva" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6 col-lg-4">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda sporty</li>
+              <div id="sporty" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/sporty/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/sporty/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/sporty/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/sporty/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/sporty/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#sporty" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#sporty" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda preppy</li>
+              <div id="preppy" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/preppy/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/preppy/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/preppy/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/preppy/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/preppy/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#preppy" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#preppy" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6 col-lg-4">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda grunge</li>
+              <div id="grunge" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/grunge/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/grunge/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/grunge/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/grunge/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/grunge/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#grunge" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#grunge" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6 col-lg-6">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda boho</li>
+              <div id="boho" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/boho/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/boho/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/boho/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/boho/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/boho/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#boho" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#boho" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <li class="text-capitalize fs-3 m-4 fw-bold text-center fst-italic">Moda vintage</li>
+              <div id="vintage" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./categorias/vintage/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/vintage/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/vintage/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/vintage/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./categorias/vintage/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#vintage" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#vintage" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <h1 class="fw-bold text-center" id="noticias">Noticias</h1>
+          <p class="text-center">Noticias de la semana</p>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col-12 col-md-4">
+                <div class="card">
+                  <img src="./noticias/1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Lo que ya pasó y regresó a la moda</h5>
+                      <p class="card-text">El vintage te ayuda a rescatar la belleza de lo clásico para tu vida. Sea en la decoración, en el arte, en las prendas o hasta mismo en eventos como tu boda, lo que fue siempre puede regresar a la moda.</p>
+                      <a href="#" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="card">
+                      <img src="./noticias/2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      <h5 class="card-title">Los outfits más icónicos para festivales</h5>
+                      <p class="card-text">Comodidad y estilo pueden (¡y deben!) caminar lado a lado, sobre todo cuando tienes que ir a un gran evento como los festivales de música. Entonces inspírate en los looks a seguir para estar dentro de la moda y aprovechar a lo máximo sin desgastarte.</p>
+                      <a href="#" class="btn btn-primary">Ver más</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="card">
+                      <img src="./noticias/3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                      <h5 class="card-title">De tendencia a fondo de armario, el auge de los metalizados en moda</h5>
+                      <p class="card-text">Los acabados metalizados son una tendencia sempiterna que arrasa dentro y fuera de las pasarelas, desde convertirse en la insignia de Paco Rabanne a partir de los años sesenta hasta trufar las colecciones actuales de Gucci Isabel Marant y Dries Van Noten o ser la última apuesta estilística de Beyoncé.</p>
+                      <a href="#" class="btn btn-primary">Ver más</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <h1 class="fw-bold text-center" id="mas">Más</h1>
+          <p class="pb-5">Aprende más con nosotros</p>
+        </section>
+        <footer>
+          <nav class="navbar navbar-expand fixed-bottom navbar-dark bg-dark d-lg-none d-flex">
+              <div class="container-fluid">
+                  <div class="collapse navbar-collapse d-flex align-text-center justify-content-center" id="header1">
+                      <form class="d-flex">
+                          <div class="navbar-nav">
+                              <a class="nav-link active" aria-current="page"href="#inicio">Inicio</a></li>
+                              <a class="nav-link" href="#categorias">Categorias</a></li>
+                              <a class="nav-link" href="#noticias" tabindex="-1" aria-disabled="true">Noticias</a></li>
+                              <a class="nav-link" href="#mas">Más</a></li>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </nav>
+      </footer>
+    </body>
+</html>
